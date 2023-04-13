@@ -1,5 +1,7 @@
 import "./Navbar.css";
 
+import { Link } from "react-router-dom";
+
 import logo from "/logo.svg";
 
 function Navbar() {
@@ -10,24 +12,24 @@ function Navbar() {
       </div>
       <ul class="navbar-links d-flex py-4 px-5">
         <li class="nav-link">
-          <a href="../../index.html">
+          <Link to="/">
             <b class="pe-1">00</b> home
-          </a>
+          </Link>
         </li>
         <li class="nav-link">
-          <a href="./destinations.html">
+          <Link to="/destinations">
             <b class="pe-1">01</b> destination
-          </a>
+          </Link>
         </li>
         <li class="nav-link">
-          <a href="#">
+          <Link to="/crew">
             <b class="pe-1">02</b> crew
-          </a>
+          </Link>
         </li>
         <li class="nav-link">
-          <a href="./technologies.html">
+          <Link to="/technologies">
             <b class="pe-1">03</b> technology
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
