@@ -2,11 +2,6 @@
   margin-top: 10%;
 } */
 
-.presentation {
-  padding-left: 8rem;
-  padding-right: 6rem;
-}
-
 .sub-title {
   font-family: "Barlow Condensed", sans-serif;
   font-size: 28px;
@@ -25,6 +20,7 @@
   font-family: "Barlow Condensed", sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  max-width: 500px;
 }
 
 .explore {
@@ -49,19 +45,11 @@
   filter: drop-shadow(0 0 3rem hsl(0, 24%, 96%));
 }
 
-#home {
+/* #home {
   background-image: url(../assets/home/background-home-desktop.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   max-width: 100vw;
-}
-
-.page-title {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-left: 10.5%;
-}
+} */

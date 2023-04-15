@@ -3,13 +3,20 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
+  --white: hsl(0, 0%, 100%);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--white);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -20,4 +27,12 @@ header {
   position: absolute;
   left: 0;
   width: 100%;
+}
+
+.page-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-left: 10.5%;
 }
