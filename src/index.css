@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 62.5%;
 
   --white: hsl(0, 0%, 100%);
 }
@@ -30,8 +31,14 @@ header {
 }
 
 .page-title {
+  /* position: absolute;
+  left: 10%;
+  top: 12%; */
+
+  align-self: flex-start;
+
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 28px;
+  font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-left: 10.5%;
