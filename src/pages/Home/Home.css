@@ -25,12 +25,12 @@
 
 .explore {
   font-family: "Bellefair", serif;
-  font-size: 32px;
+  font-size: 3rem;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
   background-color: #fefefe;
-  padding: 5rem;
+  padding: 10rem;
   clip-path: circle();
   cursor: pointer;
 }
@@ -42,7 +42,7 @@
 }
 
 .wrapper:hover {
-  filter: drop-shadow(0 0 3rem hsl(0, 24%, 96%));
+  filter: drop-shadow(0 0 5rem hsl(0, 24%, 96%));
 }
 
 /* #home {
