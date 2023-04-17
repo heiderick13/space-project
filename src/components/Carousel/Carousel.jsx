@@ -6,10 +6,12 @@ function Carousel({ items }) {
       <i className=" control left">L</i>
       <i className=" control right">R</i>
 
-      {items.length > 0 &&
-        items.map((item) => {
-          return item;
-        })}
+      <div className="carousel-items">
+        {items.length > 0 &&
+          items.map((item) => {
+            return item;
+          })}
+      </div>
     </div>
   );
 }
