@@ -1,0 +1,33 @@
+.crewmate-img {
+  align-self: center;
+}
+
+.crewmate-img {
+  height: 100%;
+}
+
+.crewmate-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.crew-position,
+.crewmate-name {
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}
+
+.crew-position {
+  font-size: 5rem;
+  opacity: 0.6;
+}
+
+.crewmate-name {
+  font-size: 3rem;
+}
+
+.crewmate-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
