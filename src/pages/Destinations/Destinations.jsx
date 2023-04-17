@@ -17,6 +17,7 @@ function Destinations() {
           backgroundImage: `url(${background})`,
           minHeight: "100vh",
           flexDirection: "column",
+          justifyContent: "end",
         }}
       >
         <p className="page-title">01 Pick your destination</p>

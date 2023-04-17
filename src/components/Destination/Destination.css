@@ -1,3 +1,9 @@
 .item {
   min-width: 100%;
 }
+
+.destination-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
