@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Crew from "./pages/Crew/Crew";
 import Destinations from "./pages/Destinations/Destinations";
-import Technologies from "./pages/Technologies";
+import Technologies from "./pages/Technologies/Technologies";
 
 const router = createBrowserRouter([
   {
