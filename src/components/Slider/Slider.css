@@ -1,5 +1,5 @@
 .carousel {
-  position: relative;
+  /* position: relative; */
 
   max-width: 85%;
   overflow-x: auto;
@@ -7,7 +7,7 @@
   padding-inline: 2.5rem;
 }
 
-.carousel i.right,
+/* .carousel i.right,
 .carousel i.left {
   position: absolute;
   inset: 0 auto 0 0;
@@ -32,7 +32,7 @@
 .carousel i.right:hover,
 .carousel i.left:hover {
   opacity: 0.5;
-}
+} */
 
 .carousel-items {
   width: 100%;

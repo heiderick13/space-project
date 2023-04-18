@@ -7,8 +7,9 @@
 }
 
 .crewmate-img img {
-  height: 100%;
+  height: 90%;
   width: 100%;
+  aspect-ratio: 2/3;
 }
 
 .crew-position,
