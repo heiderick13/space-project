@@ -7,9 +7,7 @@
 }
 
 .crewmate-img img {
-  height: 90%;
   width: 100%;
-  aspect-ratio: 2/3;
 }
 
 .crew-position,
@@ -31,4 +29,6 @@
   font-family: "Barlow", sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
+
+  padding-right: 10rem;
 }

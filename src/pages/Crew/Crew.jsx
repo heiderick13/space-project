@@ -17,7 +17,6 @@ function Crew() {
         backgroundImage: `url(${background})`,
         minHeight: "100vh",
         flexDirection: "column",
-        justifyContent: "end",
       }}
     >
       <p className="page-title">02 Meet your crew</p>

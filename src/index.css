@@ -33,9 +33,9 @@ header {
 }
 
 .page-title {
-  /* position: absolute;
-  left: 10%;
-  top: 12%; */
+  position: absolute;
+  top: 12%;
+  left: 2%;
 
   align-self: flex-start;
 
