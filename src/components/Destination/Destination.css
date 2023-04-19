@@ -6,4 +6,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  padding: 4rem;
+  padding-left: 6rem;
+
+  font-size: 1.5rem;
+}
+
+.destinations-title {
+  font-family: "Bellefair", sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.distance-info {
+  margin-top: 2rem;
+  gap: 5rem;
+}
+
+.est-time,
+.avg-dist {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.avg-dist-value,
+.time-est {
+  font-family: "Bellefair", serif;
+  font-size: 26px;
+  text-transform: uppercase;
 }
