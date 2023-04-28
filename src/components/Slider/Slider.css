@@ -1,5 +1,5 @@
 .carousel {
-  /* position: relative; */
+  position: relative;
 
   max-width: 85%;
   overflow-x: auto;
@@ -7,14 +7,14 @@
   padding-inline: 2.5rem;
 }
 
-/* .carousel i.right,
-.carousel i.left {
+.carousel button.right,
+.carousel button.left {
   position: absolute;
   inset: 0 auto 0 0;
   font-size: 20px;
   line-height: 40rem;
   width: 4rem;
-  color: var(--white);
+  color: black;
   transition: all 0.3s ease-in-out;
   background: linear-gradient(to left, transparent 0%, var(--white) 200%);
   opacity: 0.1;
@@ -22,17 +22,17 @@
   border: none;
 }
 
-.carousel i.right {
+.carousel button.right {
   right: 0;
   left: auto;
   text-align: right;
   background: linear-gradient(to right, transparent 0%, var(--white) 200%);
 }
 
-.carousel i.right:hover,
-.carousel i.left:hover {
+.carousel button.right:hover,
+.carousel button.left:hover {
   opacity: 0.5;
-} */
+}
 
 .carousel-items {
   width: 100%;

@@ -1,17 +1,20 @@
 import "./Slider.css";
 
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
 
 function Slider({ items }) {
   return (
-    <Carousel className="carousel">
+    <div className="carousel">
+      <button className="right">
+        <i className="bi bi-arrow-right-short"></i>
+      </button>
+      <button className="left">
+        <i className="bi bi-arrow-left-short "></i>
+      </button>
       <div className="carousel-items">
-        {items.length > 0 &&
-          items.map((item) => {
-            return <Carousel.Item>{item}</Carousel.Item>;
-          })}
+        {items.length > 0 && items.map((item) => item)}
       </div>
-    </Carousel>
+    </div>
   );
 }
 

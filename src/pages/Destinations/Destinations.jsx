@@ -5,10 +5,10 @@ import mars from "../../assets/img/image-mars.png";
 import europa from "../../assets/img/image-europa.png";
 import titan from "../../assets/img/image-titan.png";
 
-// import Slider from "../../components/Slider/Slider";
+import Slider from "../../components/Slider/Slider";
 import Destination from "../../components/Destination/Destination";
 
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
 
 function Destinations() {
   return (
@@ -22,9 +22,8 @@ function Destinations() {
         }}
       >
         <p className="page-title">01 Pick your destination</p>
-        <Carousel>
-          {/* items={[ */}
-          <Carousel.Item>
+        <Slider
+          items={[
             <Destination
               img={moon}
               title={"Moon"}
@@ -34,9 +33,7 @@ function Destinations() {
               visiting the Luna 2 and Apollo 11 landing sites.`}
               distance={"384,400"}
               travelTime={"3 days"}
-            />
-          </Carousel.Item>
-          <Carousel.Item>
+            />,
             <Destination
               img={mars}
               title={"Mars"}
@@ -45,9 +42,7 @@ function Destinations() {
               system. It’s two and a half times the size of Everest!`}
               distance={"225 mil."}
               travelTime={"9 months"}
-            />
-          </Carousel.Item>
-          <Carousel.Item>
+            />,
             <Destination
               img={europa}
               title={"Europa"}
@@ -57,9 +52,7 @@ function Destinations() {
               your snug wintery cabin.`}
               distance={"628 mil."}
               travelTime={"3 years"}
-            />
-          </Carousel.Item>
-          <Carousel.Item>
+            />,
             <Destination
               img={titan}
               title={"Titan"}
@@ -69,10 +62,9 @@ function Destinations() {
               Saturn.`}
               distance={"1.6 bil."}
               travelTime={"7 years"}
-            />
-          </Carousel.Item>
-          {/* ]} */}
-        </Carousel>
+            />,
+          ]}
+        />
       </div>
     </>
   );
