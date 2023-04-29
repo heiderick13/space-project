@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function useForm(slides) {
+export function useSlide(slides) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   function changeSlide(i, e) {
