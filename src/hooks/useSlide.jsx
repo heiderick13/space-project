@@ -15,7 +15,5 @@ export function useSlide(slides) {
     currentSlide,
     currentComponent: slides[currentSlide],
     changeSlide,
-    isLastSlide: currentSlide + 1 === slides.length - 1 ? true : false,
-    isFirstSlide: currentSlide === 0 ? true : false,
   };
 }
