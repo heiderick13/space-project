@@ -1,19 +1,32 @@
 import "./Slider.css";
 
-// import Carousel from "react-bootstrap/Carousel";
+import { useSlide } from "../../hooks/useSlide";
+import { BsFillCaretRightFill } from "react-icons/bs";
+import { BsFillCaretLeftFill } from "react-icons/bs";
 
 function Slider({ items }) {
+  const { currentSlide, currentComponent, changeSlide } = useSlide(items);
   return (
     <div className="carousel">
-      <button className="right">
-        <i className="bi bi-arrow-right-short"></i>
+      <button
+        className="right"
+        onClick={(e) => {
+          changeSlide(currentSlide + 1, e);
+        }}
+      >
+        {/* <i className="bi bi-arrow-right-short"></i> */}
+        <BsFillCaretRightFill />
       </button>
-      <button className="left">
-        <i className="bi bi-arrow-left-short "></i>
+      <button
+        className="left"
+        onClick={(e) => {
+          changeSlide(currentSlide - 1, e);
+        }}
+      >
+        {/* <i className="bi bi-arrow-left-short "></i> */}
+        <BsFillCaretLeftFill />
       </button>
-      <div className="carousel-items">
-        {items.length > 0 && items.map((item) => item)}
-      </div>
+      <div className="carousel-items">{currentComponent}</div>
     </div>
   );
 }

@@ -4,7 +4,7 @@
   max-width: 85%;
   overflow-x: auto;
 
-  padding-inline: 2.5rem;
+  padding-inline: 2%;
 }
 
 .carousel button.right,
@@ -14,34 +14,24 @@
   font-size: 20px;
   line-height: 40rem;
   width: 4rem;
-  color: black;
   transition: all 0.3s ease-in-out;
   background: linear-gradient(to left, transparent 0%, var(--white) 200%);
   opacity: 0.1;
   cursor: pointer;
   border: none;
+
+  font-size: 2.5rem;
 }
 
 .carousel button.right {
   right: 0;
   left: auto;
-  text-align: right;
   background: linear-gradient(to right, transparent 0%, var(--white) 200%);
 }
 
 .carousel button.right:hover,
 .carousel button.left:hover {
   opacity: 0.5;
-}
-
-.carousel-items {
-  width: 100%;
-
-  display: flex;
-
-  overflow-x: auto;
-
-  scrollbar-width: none;
 }
 
 .carousel-items::-webkit-scrollbar {
