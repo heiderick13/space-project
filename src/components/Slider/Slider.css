@@ -5,6 +5,7 @@
   overflow-x: auto;
 
   padding-inline: 2%;
+  overflow: hidden;
 }
 
 .carousel button.right,
