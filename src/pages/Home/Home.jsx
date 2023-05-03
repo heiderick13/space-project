@@ -10,9 +10,13 @@ function Home() {
   return (
     <div
       className="home center"
-      style={{ backgroundImage: `url(${background})`, minHeight: "100vh" }}
+      style={{
+        backgroundImage: `url(${background})`,
+        minHeight: "100vh",
+        height: "fit-content",
+      }}
     >
-      <div className="container">
+      <div>
         <Container
           leftContent={
             <div className="presentation">
